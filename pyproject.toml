@@ -1,0 +1,20 @@
+[project]
+name = "tranlate"
+version = "0.2.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "argostranslate>=1.11.0",
+    "flet[all]>=0.85.3",
+    "openai>=2.41.1",
+    "pyclip>=0.7.0",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+]
+
+[tool.flet.app]
+path = "src"
+
+[tool.flet]
+desktop_flavor = "full"
