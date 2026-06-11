@@ -26,6 +26,7 @@ def Panel():
 
         set_TextSpanish("Loading...")
         response = await asyncio.to_thread(translate_api, text=text)
+
         set_TextSpanish(response)
 
     async def handle_audio():
@@ -84,7 +85,7 @@ def Panel():
                 label="translate text",
                 value=f"{spanishTeXT}",
                 multiline=True,
-                min_lines=6,
+                min_lines=8,
                 max_lines=8,
                 read_only=True,
                 expand=True,
@@ -101,6 +102,7 @@ def Panel():
                     ft.Button("Translate", on_click=uptade_text, width=200),
                 ],
                 alignment=ft.MainAxisAlignment.CENTER,
+                margin=5,
             ),
         ],
         horizontal_alignment=ft.CrossAxisAlignment.CENTER,
@@ -113,7 +115,7 @@ async def home(page: ft.Page):
     page.title = "Tranlate"
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.padding = 20
-    page.window.height = 550
+    page.window.height = 580
     page.window.width = 500
 
     page.render(lambda: Panel())
