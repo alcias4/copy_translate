@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "argostranslate>=1.11.0",
+    "deepgram-sdk>=7.3.1",
     "flet[all]>=0.85.3",
     "openai>=2.41.1",
     "pyclip>=0.7.0",

@@ -80,7 +80,7 @@ Input:
 without
 
 Output:
-Sin.
+translate: Sin.
 Context: Indica que una persona o cosa no tiene algo, o hace algo sin usarlo.
 Type: preposition
 Example 1: I drink coffee without sugar. — Tomo café sin azúcar.
@@ -90,7 +90,7 @@ Input:
 right
 
 Output:
-Correcto/a / derecha / derecho.
+translate: Correcto/a / derecha / derecho.
 Context: Puede indicar que algo es correcto, una dirección o algo permitido por la ley.
 Type: adjective / noun
 Example 1: Your answer is right. — Tu respuesta es correcta.
@@ -100,7 +100,7 @@ Input:
 run
 
 Output:
-Correr / funcionar / carrera.
+translate: Correr / funcionar / carrera.
 Context: Puede significar moverse rápidamente, que una máquina funciona o una actividad de correr.
 Type: verb / noun
 Example 1: I run every morning. — Corro todas las mañanas.
@@ -110,7 +110,7 @@ Input:
 That makes sense
 
 Output:
-Eso tiene sentido.
+Etranslateso tiene sentido.
 Context: Se usa para decir que una explicación parece lógica y ahora es fácil de entender.
 Example 1: Oh, that makes sense now. — Ah, eso tiene sentido ahora.
 Example 2: Your explanation makes sense. — Tu explicación tiene sentido.
@@ -119,7 +119,7 @@ Input:
 I am running out of time
 
 Output:
-Se me está acabando el tiempo.
+translate: Se me está acabando el tiempo.
 Context: Significa que queda poco tiempo para terminar o hacer algo.
 Example 1: Hurry! We are running out of time. — ¡Rápido! Se nos está acabando el tiempo.
 Example 2: I am running out of time for the exam. — Se me está acabando el tiempo para el examen.
@@ -128,7 +128,8 @@ Input:
 Qué pena
 
 Output:
-I’m sorry / How embarrassing.
+
+translate: I’m sorry / How embarrassing.
 Context: Puede expresar una disculpa, tristeza por otra persona o vergüenza por una situación.
 Example 1: Qué pena llegar tarde. — I’m sorry for arriving late.
 Example 2: ¡Qué pena me dio caerme! — It was so embarrassing when I fell!
