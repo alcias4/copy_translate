@@ -100,7 +100,7 @@ def Panel():
                         on_click=handle_audio,
                     ),
                     ft.IconButton(
-                        icon=(ft.Icons.VOLUME_UP),
+                        icon=(ft.Icons.BOOK),
                         tooltip="Listen pronunciation",
                         on_click=lambda _: set_active_translate(
                             not active_translate_easy
@@ -144,6 +144,7 @@ async def home(page: ft.Page):
     page.theme = ft.Theme(font_family="Google")
     page.title = "Tranlate"
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
+    page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.padding = 20
     page.window.height = 580
     page.window.width = 500
